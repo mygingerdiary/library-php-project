@@ -1,0 +1,158 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: white;
+}
+.box{
+  width: 1000px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #eee6ff;
+  text-align: center;
+  font-size: 40px;
+}
+.search{
+  width: 1100px;
+  padding: 100px;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background:  #eee6ff;
+  text-align: center;
+  border-radius: 24px;
+}
+.search input[type = "text"]{
+  border: 0;
+  background: none;
+  display: : block;
+  margin: 20px auto;
+  text-align: left;
+  border: 2px solid  #666699;
+  padding: 30px 20px;
+  width: 500px;
+  outline: none;
+  color: black;
+  border-radius: 24px;
+  transition: 0.25s;
+  font-size: 100%;
+}
+.search button{
+  border: 0;
+  background: none;
+  display: : block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #009933;
+  padding: 30px 40px;
+  outline: none;
+  color: black;
+  border-radius: 24px;
+  transition: 0.25s;
+  font-size: 100%;
+  cursor: pointer
+}
+.search button:hover{
+  background: #009933;
+}
+
+.f1{
+  border: 0;
+  background: none;
+  display: : block;
+  margin: 20px auto;
+  text-align: left;
+  border: 2px solid  #666699;
+  width: 170px;
+  height: 80px;
+  outline: none;
+  color: black;
+  transition: 0.25s;
+  font-size: 100%;
+}
+
+.myDiv{
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  text-align: center;
+  max-height: 10%;
+  width: 800px;
+}
+
+.myDiv input[type="submit"]{
+  border: 2px solid  #666699;
+  background-color: #eee6ff;
+}
+
+.myDiv input[type="submit"]:hover{
+  background-color: #666699;
+}
+
+.myDiv2{
+  display: block;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  text-align: center;
+  max-height: 10%;
+  color: red;
+  font-size: 30px;
+}
+
+.myDiv3{
+  position: absolute;
+  width: 800px;
+  padding: 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #eee6ff;
+  text-align: center;
+  font-size: 30px;
+}
+
+.myDiv3 input[type="submit"]{
+  border: 2px solid  #666699;
+  background-color: #eee6ff;
+  font-size: 20px;
+}
+
+.myDiv3 input[type="submit"]:hover{
+  background-color: #666699;
+  font-size: 20px;
+  display: table-cell;
+}
+
+.myDiv4{
+  position: absolute;
+  width: 800px;
+  padding: 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #eee6ff;
+  text-align: center;
+  font-size: 30px;
+  color: red;
+}
+
+.myDiv4 input[type="submit"]{
+  border: 2px solid  #666699;
+  background-color: #eee6ff;
+  font-size: 20px;
+}
+
+.myDiv4 input[type="submit"]:hover{
+  background-color: #666699;
+  font-size: 20px;
+  display: table-cell;
+}
